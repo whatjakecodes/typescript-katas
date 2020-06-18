@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
-    "allowJs": true
-  }
+    "allowJs": true,
+    "strict": true,
+    "lib": [
+      "es6",
+      "esnext"
+    ]
+  },
+  "include": [
+    "src"
+  ]
 }
